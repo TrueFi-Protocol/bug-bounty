@@ -50,7 +50,7 @@ The following smart contracts are included in the bug bounty program. There may 
 ## Smart Contracts
 [Link mainnet/testnet & github links to source code]
 - TrueUSD
-- TrueRewardBackedToken.sol
+   - TrueRewardBackedToken.sol
 - RewardTokenWithReserve.sol
 - RewardToken.sol
 - AssuredFinancialOpportunity.sol
@@ -71,7 +71,7 @@ This program has been set up to drive TrustToken’s mission forward. Our goal i
 - sensitive personal data
 - fiat currency balances
 
-The TrustToken Bug Bounty scope covers all software vulnerabilities in the in-scope services (as detailed in the scoping section of this bug bounty) provided by TrustToken. A valid report is any in-scope report that clearly demonstrates a software vulnerability that harms TrustToken or any of TrustToken’s customers and is reproducible (see special requirement).
+ The TrustToken Bug Bounty scope covers all software vulnerabilities in the in-scope services (as detailed in the scoping section of this bug bounty) provided by TrustToken. A valid report is any in-scope report that clearly demonstrates a software vulnerability that harms TrustToken or any of TrustToken’s customers and is reproducible (see special requirement).
 
 ## What We Are MOST Interested In
 Given the non-custodial nature of our relationship with our users. These are the most important class of bugs and are of most interest to TrustToken and will be rewarded accordingly:
