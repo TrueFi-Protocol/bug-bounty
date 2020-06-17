@@ -50,7 +50,7 @@ The following smart contracts are included in the bug bounty program. There may 
 ## Smart Contracts
 [Link mainnet/testnet & github links to source code]
 - TrueUSD
-- TrueRewardBackedToken.sol
+   - TrueRewardBackedToken.sol
 - RewardTokenWithReserve.sol
 - RewardToken.sol
 - AssuredFinancialOpportunity.sol
