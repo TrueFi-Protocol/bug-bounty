@@ -62,7 +62,8 @@ The following smart contracts are included in the bug bounty program. There may 
 - AStakingAsset.sol
 
 ## Eligible Release
-true-currencies: https://github.com/trusttoken/true-currencies 
+true-currencies: https://github.com/trusttoken/true-currencies
+
 trusttokens: https://github.com/trusttoken/trusttokens
 
 ## What We Are Interested In
