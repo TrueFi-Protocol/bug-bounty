@@ -63,19 +63,19 @@ The following smart contracts are included in the bug bounty program. There may 
 
 ## Eligible Release
 true-currencies: https://github.com/trusttoken/true-currencies
-trusttokens: 
+trusttokens: https://github.com/trusttoken/trusttokens
 
 ## What We Are Interested In
 This program has been set up to drive TrustToken’s mission forward. Our goal is to make financial freedom as accessible as the internet. TrustToken is here to help our customer’s safeguard their assets, of primary interest to this endeavor, are their:
-crypto holdings
-sensitive personal data
-fiat currency balances
+- crypto holdings
+- sensitive personal data
+- fiat currency balances
 
-## The TrustToken Bug Bounty scope covers all software vulnerabilities in the in-scope services (as detailed in the scoping section of this bug bounty) provided by TrustToken. A valid report is any in-scope report that clearly demonstrates a software vulnerability that harms TrustToken or any of TrustToken’s customers and is reproducible (see special requirement).
+The TrustToken Bug Bounty scope covers all software vulnerabilities in the in-scope services (as detailed in the scoping section of this bug bounty) provided by TrustToken. A valid report is any in-scope report that clearly demonstrates a software vulnerability that harms TrustToken or any of TrustToken’s customers and is reproducible (see special requirement).
 
 ## What We Are MOST Interested In
 Given the non-custodial nature of our relationship with our users. These are the most important class of bugs and are of most interest to TrustToken and will be rewarded accordingly:
-Any vulnerability that would cause our users to lose their funds or have them rendered frozen and unusable within their wallets or financial opportunities.
-Any vulnerability where an attacker can siphon assets from our users in an unintended way.
-Vulnerabilities that can drain our RESERVE pool liquidity.
-Exploits that use Uniswap pricing to abuse staking & liquidation mechanisms.
+- Any vulnerability that would cause our users to lose their funds or have them rendered frozen and unusable within their wallets or financial opportunities.
+- Any vulnerability where an attacker can siphon assets from our users in an unintended way.
+- Vulnerabilities that can drain our RESERVE pool liquidity.
+- Exploits that use Uniswap pricing to abuse staking & liquidation mechanisms.
