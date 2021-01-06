@@ -10,8 +10,9 @@
 - Amounts below are the minimum and maximum bounties we will pay per bug based on severity. We aim to be fair; all reward amounts are at our discretion.
 
 ## Rewards
-Our rewards are based on the severity of a vulnerability. TrustToken uses CVSS 3.0 (Common Vulnerability Scoring Standard) and the total percentage of potential capital loss to calculate severity. Please note, however, that reward decisions are up to the discretion of TrustToken and reward amounts may be adjusted during the program. 
-Scope
+Our rewards are based on the severity of a vulnerability. TrustToken uses CVSS 3.0 (Common Vulnerability Scoring Standard) and the total percentage of potential capital loss to calculate severity. Please note, however, that reward decisions are up to the discretion of TrustToken and reward amounts may be adjusted during the program.
+
+## Scope
 Our scopes are listed in the Smart Contracts Scope section below. More information on each scope, including the types of issues we’re most interested in seeing, is available below.
 
 ## Out of Scope
@@ -21,7 +22,7 @@ Our scopes are listed in the Smart Contracts Scope section below. More informati
 4. Missing best practices in SSL/TLS configuration.
 5. Denial of service that is not a result of application engineering.
 6. Content spoofing and text injection issues without showing an attack vector/without being able to modify HTML/CSS.
-7. Game theory attacks which are noted already in the whitepaper (e.g parasitic markets, malicious resolution source).
+7. Game theory attacks which are noted already in the specification (e.g parasitic markets, malicious resolution source).
 8. Comma Separated Values (CSV) injection without demonstrating a vulnerability.
 9. Vulnerabilities within “Financial Opportunities” are not covered by this program. However, these vulnerabilities may be eligible for financial opportunity bounties and review by our team and we encourage them to be submitted without reward for the security of the ecosystem.
 
@@ -48,35 +49,24 @@ Note: Only exploits within groups 1-3 are currently eligible for rewards in this
 The following smart contracts are included in the bug bounty program. There may be redeployments of the contracts during the duration of the bug bounty program. Please see the section below for more information on the current release eligible for bug bounties.
 
 ## Smart Contracts
-[Link mainnet/testnet & github links to source code]
-- TrueUSD
-   - TrueRewardBackedToken.sol
-   - RewardTokenWithReserve.sol
-   - RewardToken.sol
-- AssuredFinancialOpportunity.sol
-- AaveFinancialOpportunity.sol
-- TrustToken.sol
-- Liquidator.sol
-- ALiquidatorUniswap.sol
-- StakingAsset.sol
-- AStakingAsset.sol
+https://github.com/trusttoken/smart-contracts/truefi
 
 ## Eligible Release
-true-currencies: https://github.com/trusttoken/true-currencies
+https://github.com/trusttoken/smart-contracts/truefi
 
-trusttokens: https://github.com/trusttoken/trusttokens
 
 ## What We Are Interested In
 This program has been set up to drive TrustToken’s mission forward. Our goal is to make financial freedom as accessible as the internet. TrustToken is here to help our customer’s safeguard their assets, of primary interest to this endeavor, are their:
 - crypto holdings
 - sensitive personal data
-- fiat currency balances
+- stablecoin balances
 
- The TrustToken Bug Bounty scope covers all software vulnerabilities in the in-scope services (as detailed in the scoping section of this bug bounty) provided by TrustToken. A valid report is any in-scope report that clearly demonstrates a software vulnerability that harms TrustToken or any of TrustToken’s customers and is reproducible (see special requirement).
+The TrustToken Bug Bounty scope covers all software vulnerabilities in the in-scope services (as detailed in the scoping section of this bug bounty) provided by TrustToken. A valid report is any in-scope report that clearly demonstrates a software vulnerability that harms TrueFi or any of TrustToken’s customers and is reproducible (see special requirement).
 
 ## What We Are MOST Interested In
 Given the non-custodial nature of our relationship with our users. These are the most important class of bugs and are of most interest to TrustToken and will be rewarded accordingly:
-- Any vulnerability that would cause our users to lose their funds or have them rendered frozen and unusable within their wallets or financial opportunities.
+- Any vulnerability that would cause our users to lose their funds or have them rendered frozen and unusable within their wallets or smart contracts
 - Any vulnerability where an attacker can siphon assets from our users in an unintended way.
-- Vulnerabilities that can drain our RESERVE pool liquidity.
+- Vulnerabilities that can drain pool liquidity.
 - Exploits that use Uniswap pricing to abuse staking & liquidation mechanisms.
+- Exploits involving flash loans.
