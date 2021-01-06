@@ -49,10 +49,10 @@ Note: Only exploits within groups 1-3 are currently eligible for rewards in this
 The following smart contracts are included in the bug bounty program. There may be redeployments of the contracts during the duration of the bug bounty program. Please see the section below for more information on the current release eligible for bug bounties.
 
 ## Smart Contracts
-https://github.com/trusttoken/smart-contracts/truefi
+https://github.com/trusttoken/smart-contracts/tree/master/contracts/truefi
 
 ## Eligible Release
-https://github.com/trusttoken/smart-contracts/truefi
+https://github.com/trusttoken/smart-contracts/tree/master/contracts/truefi
 
 
 ## What We Are Interested In
