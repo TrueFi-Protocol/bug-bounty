@@ -1,4 +1,4 @@
-## Program Description
+## TrueFi Bug Bounty
 
 ## Program Rules
 
