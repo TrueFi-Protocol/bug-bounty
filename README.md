@@ -29,7 +29,7 @@ Our scopes are listed in the Smart Contracts Scope section below. More informati
 ## Special Requirements for Critical Smart Contract bugs
 Like the rest of the program, the smart contracts program generally uses the OWASP risk rating methodology for classifying bugs. One exception pertains to Critical bugs which must meet the following requirements:
 
-1. The bug must allow a user to steal collateral tokens representing at least 10% of the value of all TUSD deposited in TrueRewards.
+1. The bug must allow a user to steal collateral tokens deposited into TrueFi.
 2. The attack must be triggered through an attack vector that is more than just theoretical.
 3. The system must be in normal operational mode or emergency shutdown mode. This excludes for example any states during deployment or shortly after when the system is not fully initialized.
 
@@ -42,9 +42,7 @@ Exploits may be grouped as following:
 1. Function-level (exploitable through a single entry-point)
 2. Contract-level (combining multiple entry-points)
 3. System-level (combining multiple contracts)
-4. Game-level (attacking the incentive mechanisms) (currently not eligible for reward)
-
-Note: Only exploits within groups 1-3 are currently eligible for rewards in this bug bounty program.
+4. Game-level (attacking the incentive mechanisms)
 
 The following smart contracts are included in the bug bounty program. There may be redeployments of the contracts during the duration of the bug bounty program. Please see the section below for more information on the current release eligible for bug bounties.
 
