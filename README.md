@@ -1,4 +1,8 @@
-## TrueFi Bug Bounty
+## TrueFi Smart Contract Bug Bounty
+
+### Repository
+https://github.com/trusttoken/smart-contracts/tree/dev 
+scope: deployments.json for mainnet deployed contracts
 
 ## Program Rules
 
@@ -15,25 +19,14 @@ Our rewards are based on the severity of a vulnerability. TrustToken uses CVSS 3
 ## Scope
 Our scopes are listed in the Smart Contracts Scope section below. More information on each scope, including the types of issues we’re most interested in seeing, is available below.
 
-## Out of Scope
-1. Clickjacking on pages with no sensitive actions.
-2. Attacks requiring MITM or physical access to a user's device.
-3. Previously known vulnerable libraries without a working Proof of Concept.
-4. Missing best practices in SSL/TLS configuration.
-5. Denial of service that is not a result of application engineering.
-6. Content spoofing and text injection issues without showing an attack vector/without being able to modify HTML/CSS.
-7. Game theory attacks which are noted already in the specification (e.g parasitic markets, malicious resolution source).
-8. Comma Separated Values (CSV) injection without demonstrating a vulnerability.
-9. Vulnerabilities within “Financial Opportunities” are not covered by this program. However, these vulnerabilities may be eligible for financial opportunity bounties and review by our team and we encourage them to be submitted without reward for the security of the ecosystem.
-
-## Special Requirements for Critical Smart Contract bugs
+## Special Requirements
 Like the rest of the program, the smart contracts program generally uses the OWASP risk rating methodology for classifying bugs. One exception pertains to Critical bugs which must meet the following requirements:
 
 1. The bug must allow a user to steal collateral tokens deposited into TrueFi.
 2. The attack must be triggered through an attack vector that is more than just theoretical.
 3. The system must be in normal operational mode or emergency shutdown mode. This excludes for example any states during deployment or shortly after when the system is not fully initialized.
 
-Note: All Smart Contract bugs must include a POC implementation with reproducible steps. This can be the form of a Solidity or JavaScript test or a list of actions that clearly shows how the bug occurs. We recommend using Dapp tools or Truffle for testing.
+Note: All Smart Contract bugs must include a POC implementation with reproducible steps. This can be the form of a Solidity or JavaScript test or a list of actions that clearly shows how the bug occurs.
 
 ## Smart Contracts Scope
 At this time, rewards will be paid out for vulnerabilities discovered in our core smart contracts (and their children) for TrustTokens as listed below.
@@ -46,17 +39,9 @@ Exploits may be grouped as following:
 
 The following smart contracts are included in the bug bounty program. There may be redeployments of the contracts during the duration of the bug bounty program. Please see the section below for more information on the current release eligible for bug bounties.
 
-## Smart Contracts
-https://github.com/trusttoken/smart-contracts/tree/master/contracts/truefi
-
-## Eligible Release
-https://github.com/trusttoken/smart-contracts/tree/master/contracts/truefi
-
-
 ## What We Are Interested In
 This program has been set up to drive TrustToken’s mission forward. Our goal is to make financial freedom as accessible as the internet. TrustToken is here to help our customer’s safeguard their assets, of primary interest to this endeavor, are their:
 - crypto holdings
-- sensitive personal data
 - stablecoin balances
 
 The TrustToken Bug Bounty scope covers all software vulnerabilities in the in-scope services (as detailed in the scoping section of this bug bounty) provided by TrustToken. A valid report is any in-scope report that clearly demonstrates a software vulnerability that harms TrueFi or any of TrustToken’s customers and is reproducible (see special requirement).
