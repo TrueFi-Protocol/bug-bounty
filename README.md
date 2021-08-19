@@ -3,7 +3,7 @@
 ### Repository
 https://github.com/trusttoken/smart-contracts/tree/dev 
   
-scope: deployments.json for mainnet deployed contracts
+deployments.json for mainnet & ropsten deployed contracts
 
 ## Program Rules
 
