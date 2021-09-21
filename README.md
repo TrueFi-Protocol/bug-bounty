@@ -25,7 +25,7 @@ Like the rest of the program, the smart contracts program generally uses the OWA
 
 1. The bug must allow a user to steal collateral tokens deposited into TrueFi.
 2. The attack must be triggered through an attack vector that is more than just theoretical.
-3. The system must be in normal operational mode or emergency shutdown mode. This excludes for example any states during deployment or shortly after when the system is not fully initialized.
+3. The system must be in normal operational mode or pause mode. This excludes for example any states during deployment or shortly after when the system is not fully initialized.
 
 Note: All Smart Contract bugs must include a POC implementation with reproducible steps. This can be the form of a Solidity or JavaScript test or a list of actions that clearly shows how the bug occurs.
 
