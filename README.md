@@ -7,12 +7,14 @@ deployments.json for mainnet & ropsten deployed contracts
 
 ## Program Rules
 
+- Public disclosure of a vulnerability would make it ineligible for a reward.
 - Social engineering (e.g. phishing, vishing, smishing) is prohibited.
 - Please provide detailed reports with reproducible steps. If the report is not detailed enough to reproduce the issue, the issue will not be eligible for a reward.
 - Submit one vulnerability per report, unless you need to chain vulnerabilities to provide impact.
 - When duplicates occur, we only award the first report that was received (provided that it can be fully reproduced).
 - Multiple vulnerabilities caused by one underlying issue will be awarded one bounty.
 - Amounts below are the minimum and maximum bounties we will pay per bug based on severity. We aim to be fair; all reward amounts are at our discretion.
+- Terms and conditions of the bug bounty process may vary over time.
 
 ## Rewards
 Our rewards are based on the severity of a vulnerability. TrustToken uses CVSS 3.0 (Common Vulnerability Scoring Standard) and the total percentage of potential capital loss to calculate severity. Please note, however, that reward decisions are up to the discretion of TrustToken and reward amounts may be adjusted during the program.
