@@ -1,7 +1,7 @@
 ## TrueFi Smart Contract Bug Bounty
 
 ### Repository
-https://github.com/trusttoken/smart-contracts/tree/dev 
+https://github.com/trusttoken/smart-contracts/tree/main 
   
 deployments.json for mainnet & ropsten deployed contracts
 
@@ -39,15 +39,13 @@ Like the rest of the program, the smart contracts program generally uses the OWA
 Note: All Smart Contract bugs must include a POC implementation with reproducible steps. This can be the form of a Solidity or JavaScript test or a list of actions that clearly shows how the bug occurs.
 
 ## Smart Contracts Scope
-At this time, rewards will be paid out for vulnerabilities discovered in our core smart contracts (and their children) for TrustTokens as listed below.
+At this time, rewards will be paid out for vulnerabilities discovered in our core smart contracts (and their children), listed [HERE](https://github.com/trusttoken/smart-contracts/blob/main/deployments-mainnet.json). There may be redeployments of the contracts during the duration of the bug bounty program. Please see the section below for more information on the current release eligible for bug bounties.
 
 Exploits may be grouped as following:
 1. Function-level (exploitable through a single entry-point)
 2. Contract-level (combining multiple entry-points)
 3. System-level (combining multiple contracts)
 4. Game-level (attacking the incentive mechanisms)
-
-The following smart contracts are included in the bug bounty program. There may be redeployments of the contracts during the duration of the bug bounty program. Please see the section below for more information on the current release eligible for bug bounties.
 
 ## What We Are Interested In
 This program has been set up to drive TrustToken’s mission forward. Our goal is to make financial freedom as accessible as the internet. TrustToken is here to help our customer’s safeguard their assets, of primary interest to this endeavor, are their:
