@@ -17,6 +17,13 @@ deployments.json for mainnet & ropsten deployed contracts
 ## Rewards
 Our rewards are based on the severity of a vulnerability. TrustToken uses CVSS 3.0 (Common Vulnerability Scoring Standard) and the total percentage of potential capital loss to calculate severity. Please note, however, that reward decisions are up to the discretion of TrustToken and reward amounts may be adjusted during the program.
 
+|  Severity |      Loss     |   Min Payout  |   Max Payout  |
+|-----------|---------------|---------------|---------------|
+| Low       |     $10,000+  |     $100      |      $200     |
+| Medium    |    $100,000+  |   $1,000      |    $2,000     |
+| High      |  $1,000,000+  |  $10,000      |   $20,000     |
+| Critical  | $50,000,000+  |  $20,000      |  $100,000     |
+
 ## Scope
 Our scopes are listed in the Smart Contracts Scope section below. More information on each scope, including the types of issues we’re most interested in seeing, is available below.
 
