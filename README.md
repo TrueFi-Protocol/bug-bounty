@@ -7,6 +7,7 @@ deployments.json for mainnet & ropsten deployed contracts
 
 ## Program Rules
 
+- Please disclose vulnerabilities privately to security@trusttoken.com.
 - Public disclosure of a vulnerability would make it ineligible for a reward.
 - Social engineering (e.g. phishing, vishing, smishing) is prohibited.
 - Please provide detailed reports with reproducible steps. If the report is not detailed enough to reproduce the issue, the issue will not be eligible for a reward.
