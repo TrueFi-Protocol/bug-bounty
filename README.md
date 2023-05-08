@@ -1,6 +1,6 @@
 ## TrueFi Smart Contract Bug Bounty
 
-TrueFi's bug bounty for the Lending Marketplace is hosted on [Immunefi](https://immunefi.com/bounty/truefi/). Other contracts are covered under these terms.
+TrueFi's bug bounty for the Lending Marketplace was previously hosted on [Immunefi](https://immunefi.com/bounty/truefi/), but is currently paused. Other contracts are covered under these terms.
 
 ### Repository
 https://github.com/trusttoken/smart-contracts/tree/main 
